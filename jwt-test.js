@@ -14,8 +14,5 @@ console.log("Token :" + token);
 var legit = jwt.verify(token);
 console.log("JWT verification result: ", legit);
 
-/*
- ====================   JST Decode =====================
-*/
 var decoded = jwt.decode(token);
 console.log("Decoded jwt: ", decoded);
